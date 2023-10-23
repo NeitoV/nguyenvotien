@@ -17,6 +17,7 @@ int tong(int a, int b) {
 }
 int hieu(int a, int b);
 
+
 int tich(int a, int b);
 float thuong(int a, int b);
 
@@ -27,11 +28,12 @@ int tich(int a, int b) {
 	cin >> b;
 	int tich = 0;
 	tich = a*b;
-	cout << " \nTich cua a va b la :" << tich << endl;	
+cout << " \nTich cua a va b la :" << tich << endl;	}
+float thuong(int a, int b);
+int tich(int a, int b);
 float thuong(int a, int b);
 int main()
 {
-	int a,b;
 
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
 	cout <<tong(3,2);
