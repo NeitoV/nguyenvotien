@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-<<<<<<< HEAD
+
 int tong(int a, int b);
 int hieu(int a, int b){
 	int hieu=0;
@@ -11,23 +11,32 @@ int hieu(int a, int b){
 	cout<<"\nHieu cua a va b: "<<hieu;
 	return hieu
 }
-=======
+
 int tong(int a, int b) {
 	return a + b;
 }
 int hieu(int a, int b);
->>>>>>> f0b5dd18827daa6671e1a5ae7601e59f876392de
+
 int tich(int a, int b);
+float thuong(int a, int b);
+
+int tich(int a, int b) {
+	cout << "\nNhap a :" << endl;
+	cin >> a;
+	cout << "\nNhap b :" << endl;
+	cin >> b;
+	int tich = 0;
+	tich = a*b;
+	cout << " \nTich cua a va b la :" << tich << endl;	
 float thuong(int a, int b);
 int main()
 {
 	int a,b;
+
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
-<<<<<<< HEAD
-	cout<< hieu(10,5);
-=======
-	tong(3,2);
->>>>>>> f0b5dd18827daa6671e1a5ae7601e59f876392de
+	cout <<tong(3,2);
+	cout<<hieu(10,9);
+	cout<< tich(6,9);
 	system("pause");
 	return 0;
 }
